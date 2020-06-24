@@ -1,0 +1,11 @@
+{
+    "$schema": "./app.schema.json",
+    "App": {
+        "GenerateConfigJsonSchema": true
+    },
+    "Database": {
+        "ConnectionString": "Data Source=test.db",
+        "DbType": "Sqlite",
+        "SyncTableSchema": true
+    }
+}

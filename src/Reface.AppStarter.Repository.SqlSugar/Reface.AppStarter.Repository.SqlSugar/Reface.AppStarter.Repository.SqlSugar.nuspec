@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Reface.AppStarter.Repository.SqlSugar</id>
+    <version>1.0.5</version>
+    <title>Reface.AppStarter.Repository.SqlSugar</title>
+    <authors>Felix</authors>
+    <owners>Felix</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/ShimizuShiori/Reface.AppStarter.Repository.SqlSugar</projectUrl>
+    <description>由 SqlSugar 实现的数据仓库</description>
+    <copyright>Copyright 2020</copyright>
+    <dependencies>
+      <dependency id="Reface.AppStarter" version="[2.1.14,2.2.0)"/>
+      <dependency id="Reface.AppStarter.Proxy" version="[2.0.1,2.1.0)"/>
+      <dependency id="sqlSugar" version="[5.0.0.13]"/>
+      <dependency id="Reface.AppStarter.Repository" version="[1.1.2,1.2.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\Reface.AppStarter.Repository.SqlSugar.xml"/>
+  </files>
+</package>
