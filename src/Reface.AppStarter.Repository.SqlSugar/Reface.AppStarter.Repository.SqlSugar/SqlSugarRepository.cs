@@ -52,5 +52,5 @@ namespace Reface.AppStarter.Repository.SqlSugar
             var updator = this.sqlSugarClientProvider.Provide().Updateable<TEntity>().SetColumns(set);
             return new SqlSugarUpdateCondition<TEntity>(updator);
         }
-    }h
+    }
 }
